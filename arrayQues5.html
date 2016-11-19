@@ -1,0 +1,20 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes List</title>
+</head>
+
+<body>
+    <script>
+    (function() {
+        var oldArray = ["January", "February", "March", "April", "May", "June"],
+            newArray = ["July", "August", "September", "October", "November", "December"],
+            monthArray = oldArray.concat(newArray);
+        for (var i = 0; i <= monthArray.length - 1; i++) {
+            console.log(monthArray[i]);
+        }
+        console.log(monthArray);
+
+
+    })()
+    </script>
+</body>
